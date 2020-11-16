@@ -150,6 +150,10 @@ UPROGS=\
 	$U/_wc\
 	$U/_zombie\
 	$U/_sleep\
+	$U/_pingpong\
+	$U/_primes\
+	$U/_find\
+	$U/_xargs\
 
 
 
@@ -159,7 +163,7 @@ UPROGS += \
 	$U/_sysinfotest
 endif
 
-ifeq ($(LAB),trap)
+ifeq ($(LAB),trap) 
 UPROGS += \
 	$U/_call\
 	$U/_alarmtest
